@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7CEDA0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.count {
+  width: 300px;
+  height: 330px;
+  text-align: center;
+  background: #F5F4F6;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 20px 0px #989494;
+  position: relative;
+}
+
+h1.number {
+  margin-top: 1rem;
+  padding: 2rem;
+  font-size: 80px;
+  font-weight: 300;
+  color: #222122;
+  text-shadow: 7px 0px 3px #d6d5d6;
+}
+
+.btn_container {
+  margin-top: 1rem;
+}
+
+button.btn {
+  border: none;
+  outline: none;
+  background: #F5F4F6;
+  box-shadow: 0 0 20px #c9c9c9;
+  margin: 0 15px;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button.btn:hover{
+  background: #edeced;
+}
+
+button.inc_btn{
+  color: #363537;
+}
+
+button.dec_btn{
+  color: #FF4758;
+}
